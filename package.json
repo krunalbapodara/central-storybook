@@ -5,7 +5,7 @@
     "author": "No",
     "description": "This is framework developed upon react and provides all basic functionalities and utility functions. It involves libraries, components, and services that can be publishable. It involves core configs that can use in shell projects. It involves a playground to test the components and services.",
     "scripts": {
-        "chromatic": "npx chromatic --project-token=00729ef89ea2"
+        "chromatic": "npx chromatic --project-token=6447ee0405a9 -s=storybook-static"
     },
     "devDependencies": {
         "chromatic": "^6.9.0"

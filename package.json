@@ -1,0 +1,29 @@
+{
+    "name": "central-storybook",
+    "version": "0.0.1",
+    "private": true,
+    "author": "No",
+    "description": "This is framework developed upon react and provides all basic functionalities and utility functions. It involves libraries, components, and services that can be publishable. It involves core configs that can use in shell projects. It involves a playground to test the components and services.",
+    "scripts": {
+        "chromatic": "npx chromatic --project-token=00729ef89ea2"
+    },
+    "devDependencies": {
+        "chromatic": "^6.9.0"
+    },
+    "engines": {
+        "node": ">=13.0.0",
+        "yarn": "^1.22.1"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
